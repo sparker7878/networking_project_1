@@ -1,0 +1,400 @@
+##################################################################################################################################
+Network 1
+##################################################################################################################################
+-------
+Round 1: A
+Current DV matrix = [[999, 999, 999, 999, 999], [999, 2, 999, 999, 999], [999, 999, 999, 999, 999], [999, 999, 999, 999, 999], [999, 999, 999, 999, 1]]
+Last DV matrix = [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]
+Updated from last DV matrix or the same? Updated
+A Sending DV to node B
+Node B received DV from A
+Updating DV matrix at node B
+New DV matrix at node B = [[2, 999, 999, 999, 999], [999, 999, 999, 999, 999], [999, 999, 5, 999, 999], [999, 999, 999, 999, 999], [3, 999, 999, 999, 999]]
+A Sending DV to node E
+Node E received DV from A
+Updating DV matrix at node E
+New DV matrix at node E = [[1, 999, 999, 999, 999], [3, 999, 999, 999, 999], [999, 999, 999, 999, 999], [999, 999, 999, 1, 999], [999, 999, 999, 999, 999]]
+-------
+Round 1: B
+Current DV matrix = [[2, 999, 999, 999, 999], [999, 999, 999, 999, 999], [999, 999, 5, 999, 999], [999, 999, 999, 999, 999], [3, 999, 999, 999, 999]]
+Last DV matrix = [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]
+Updated from last DV matrix or the same? Updated
+B Sending DV to node A
+Node A received DV from B
+Updating DV matrix at node A
+New DV matrix at node A = [[999, 999, 999, 999, 999], [999, 2, 999, 999, 999], [999, 7, 999, 999, 999], [999, 999, 999, 999, 999], [999, 999, 999, 999, 1]]
+Updating DV matrix at node A
+New DV matrix at node A = [[999, 999, 999, 999, 999], [999, 2, 999, 999, 999], [999, 7, 999, 999, 999], [999, 999, 999, 999, 999], [999, 5, 999, 999, 1]]
+B Sending DV to node C
+-------
+Round 1: C
+Current DV matrix = [[999, 999, 999, 999, 999], [999, 5, 999, 999, 999], [999, 999, 999, 999, 999], [999, 999, 999, 4, 999], [999, 999, 999, 999, 999]]
+Last DV matrix = [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]
+Updated from last DV matrix or the same? Updated
+C Sending DV to node B
+Node C received DV from B
+Updating DV matrix at node C
+New DV matrix at node C = [[999, 7, 999, 999, 999], [999, 5, 999, 999, 999], [999, 999, 999, 999, 999], [999, 999, 999, 4, 999], [999, 999, 999, 999, 999]]
+Updating DV matrix at node C
+New DV matrix at node C = [[999, 7, 999, 999, 999], [999, 5, 999, 999, 999], [999, 999, 999, 999, 999], [999, 999, 999, 4, 999], [999, 8, 999, 999, 999]]
+Node B received DV from C
+Updating DV matrix at node B
+New DV matrix at node B = [[2, 999, 999, 999, 999], [999, 999, 999, 999, 999], [999, 999, 5, 999, 999], [999, 999, 9, 999, 999], [3, 999, 999, 999, 999]]
+C Sending DV to node D
+Node D received DV from C
+Updating DV matrix at node D
+New DV matrix at node D = [[999, 999, 11, 999, 999], [999, 999, 999, 999, 999], [999, 999, 4, 999, 999], [999, 999, 999, 999, 999], [999, 999, 999, 999, 1]]
+Updating DV matrix at node D
+New DV matrix at node D = [[999, 999, 11, 999, 999], [999, 999, 9, 999, 999], [999, 999, 4, 999, 999], [999, 999, 999, 999, 999], [999, 999, 999, 999, 1]]
+Updating DV matrix at node D
+New DV matrix at node D = [[999, 999, 11, 999, 999], [999, 999, 9, 999, 999], [999, 999, 4, 999, 999], [999, 999, 999, 999, 999], [999, 999, 12, 999, 1]]
+-------
+Round 1: D
+Current DV matrix = [[999, 999, 11, 999, 999], [999, 999, 9, 999, 999], [999, 999, 4, 999, 999], [999, 999, 999, 999, 999], [999, 999, 12, 999, 1]]
+Last DV matrix = [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]
+Updated from last DV matrix or the same? Updated
+D Sending DV to node C
+D Sending DV to node E
+Node C received DV from D
+Updating DV matrix at node C
+New DV matrix at node C = [[999, 7, 999, 15, 999], [999, 5, 999, 999, 999], [999, 999, 999, 999, 999], [999, 999, 999, 4, 999], [999, 8, 999, 999, 999]]
+Updating DV matrix at node C
+New DV matrix at node C = [[999, 7, 999, 15, 999], [999, 5, 999, 13, 999], [999, 999, 999, 999, 999], [999, 999, 999, 4, 999], [999, 8, 999, 999, 999]]
+Updating DV matrix at node C
+New DV matrix at node C = [[999, 7, 999, 15, 999], [999, 5, 999, 13, 999], [999, 999, 999, 999, 999], [999, 999, 999, 4, 999], [999, 8, 999, 5, 999]]
+Node E received DV from D
+Updating DV matrix at node E
+New DV matrix at node E = [[1, 999, 999, 12, 999], [3, 999, 999, 999, 999], [999, 999, 999, 999, 999], [999, 999, 999, 1, 999], [999, 999, 999, 999, 999]]
+Updating DV matrix at node E
+New DV matrix at node E = [[1, 999, 999, 12, 999], [3, 999, 999, 10, 999], [999, 999, 999, 999, 999], [999, 999, 999, 1, 999], [999, 999, 999, 999, 999]]
+Updating DV matrix at node E
+New DV matrix at node E = [[1, 999, 999, 12, 999], [3, 999, 999, 10, 999], [999, 999, 999, 5, 999], [999, 999, 999, 1, 999], [999, 999, 999, 999, 999]]
+-------
+Round 1: E
+Current DV matrix = [[1, 999, 999, 12, 999], [3, 999, 999, 10, 999], [999, 999, 999, 5, 999], [999, 999, 999, 1, 999], [999, 999, 999, 999, 999]]
+Last DV matrix = [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]
+Updated from last DV matrix or the same? Updated
+E Sending DV to node A
+E Sending DV to node D
+Node A received DV from E
+Updating DV matrix at node A
+New DV matrix at node A = [[999, 999, 999, 999, 999], [999, 2, 999, 999, 4], [999, 7, 999, 999, 999], [999, 999, 999, 999, 999], [999, 5, 999, 999, 1]]
+Updating DV matrix at node A
+New DV matrix at node A = [[999, 999, 999, 999, 999], [999, 2, 999, 999, 4], [999, 7, 999, 999, 6], [999, 999, 999, 999, 999], [999, 5, 999, 999, 1]]
+Updating DV matrix at node A
+New DV matrix at node A = [[999, 999, 999, 999, 999], [999, 2, 999, 999, 4], [999, 7, 999, 999, 6], [999, 999, 999, 999, 2], [999, 5, 999, 999, 1]]
+Node D received DV from E
+Updating DV matrix at node D
+New DV matrix at node D = [[999, 999, 11, 999, 2], [999, 999, 9, 999, 999], [999, 999, 4, 999, 999], [999, 999, 999, 999, 999], [999, 999, 12, 999, 1]]
+Updating DV matrix at node D
+New DV matrix at node D = [[999, 999, 11, 999, 2], [999, 999, 9, 999, 4], [999, 999, 4, 999, 999], [999, 999, 999, 999, 999], [999, 999, 12, 999, 1]]
+Updating DV matrix at node D
+New DV matrix at node D = [[999, 999, 11, 999, 2], [999, 999, 9, 999, 4], [999, 999, 4, 999, 6], [999, 999, 999, 999, 999], [999, 999, 12, 999, 1]]
+-------
+Round 2: A
+Current DV matrix = [[999, 999, 999, 999, 999], [999, 2, 999, 999, 4], [999, 7, 999, 999, 6], [999, 999, 999, 999, 2], [999, 5, 999, 999, 1]]
+Last DV matrix = [[999, 999, 999, 999, 999], [999, 2, 999, 999, 999], [999, 999, 999, 999, 999], [999, 999, 999, 999, 999], [999, 999, 999, 999, 1]]
+Updated from last DV matrix or the same? Updated
+A Sending DV to node B
+Node B received DV from A
+Updating DV matrix at node B
+New DV matrix at node B = [[2, 999, 999, 999, 999], [999, 999, 999, 999, 999], [8, 999, 5, 999, 999], [999, 999, 9, 999, 999], [3, 999, 999, 999, 999]]
+Updating DV matrix at node B
+New DV matrix at node B = [[2, 999, 999, 999, 999], [999, 999, 999, 999, 999], [8, 999, 5, 999, 999], [4, 999, 9, 999, 999], [3, 999, 999, 999, 999]]
+A Sending DV to node E
+Node E received DV from A
+Updating DV matrix at node E
+New DV matrix at node E = [[1, 999, 999, 12, 999], [3, 999, 999, 10, 999], [7, 999, 999, 5, 999], [999, 999, 999, 1, 999], [999, 999, 999, 999, 999]]
+Updating DV matrix at node E
+New DV matrix at node E = [[1, 999, 999, 12, 999], [3, 999, 999, 10, 999], [7, 999, 999, 5, 999], [3, 999, 999, 1, 999], [999, 999, 999, 999, 999]]
+-------
+Round 2: B
+Current DV matrix = [[2, 999, 999, 999, 999], [999, 999, 999, 999, 999], [8, 999, 5, 999, 999], [4, 999, 9, 999, 999], [3, 999, 999, 999, 999]]
+Last DV matrix = [[2, 999, 999, 999, 999], [999, 999, 999, 999, 999], [999, 999, 5, 999, 999], [999, 999, 999, 999, 999], [3, 999, 999, 999, 999]]
+Updated from last DV matrix or the same? Updated
+B Sending DV to node A
+Node A received DV from B
+Updating DV matrix at node A
+New DV matrix at node A = [[999, 999, 999, 999, 999], [999, 2, 999, 999, 4], [999, 7, 999, 999, 6], [999, 6, 999, 999, 2], [999, 5, 999, 999, 1]]
+B Sending DV to node C
+Node C received DV from B
+Updating DV matrix at node C
+New DV matrix at node C = [[999, 7, 999, 15, 999], [999, 5, 999, 13, 999], [999, 999, 999, 999, 999], [999, 9, 999, 4, 999], [999, 8, 999, 5, 999]]
+-------
+Round 2: C
+Current DV matrix = [[999, 7, 999, 15, 999], [999, 5, 999, 13, 999], [999, 999, 999, 999, 999], [999, 9, 999, 4, 999], [999, 8, 999, 5, 999]]
+Last DV matrix = [[999, 999, 999, 999, 999], [999, 5, 999, 999, 999], [999, 999, 999, 999, 999], [999, 999, 999, 4, 999], [999, 999, 999, 999, 999]]
+Updated from last DV matrix or the same? Updated
+C Sending DV to node B
+Node B received DV from C
+Updating DV matrix at node B
+New DV matrix at node B = [[2, 999, 12, 999, 999], [999, 999, 999, 999, 999], [8, 999, 5, 999, 999], [4, 999, 9, 999, 999], [3, 999, 999, 999, 999]]
+Updating DV matrix at node B
+New DV matrix at node B = [[2, 999, 12, 999, 999], [999, 999, 999, 999, 999], [8, 999, 5, 999, 999], [4, 999, 9, 999, 999], [3, 999, 10, 999, 999]]
+C Sending DV to node D
+Node D received DV from C
+Updating DV matrix at node D
+New DV matrix at node D = [[999, 999, 11, 999, 2], [999, 999, 9, 999, 4], [999, 999, 4, 999, 6], [999, 999, 999, 999, 999], [999, 999, 9, 999, 1]]
+-------
+Round 2: D
+Current DV matrix = [[999, 999, 11, 999, 2], [999, 999, 9, 999, 4], [999, 999, 4, 999, 6], [999, 999, 999, 999, 999], [999, 999, 9, 999, 1]]
+Last DV matrix = [[999, 999, 11, 999, 999], [999, 999, 9, 999, 999], [999, 999, 4, 999, 999], [999, 999, 999, 999, 999], [999, 999, 12, 999, 1]]
+Updated from last DV matrix or the same? Updated
+D Sending DV to node C
+Node C received DV from D
+Updating DV matrix at node C
+New DV matrix at node C = [[999, 7, 999, 6, 999], [999, 5, 999, 13, 999], [999, 999, 999, 999, 999], [999, 9, 999, 4, 999], [999, 8, 999, 5, 999]]
+Updating DV matrix at node C
+New DV matrix at node C = [[999, 7, 999, 6, 999], [999, 5, 999, 8, 999], [999, 999, 999, 999, 999], [999, 9, 999, 4, 999], [999, 8, 999, 5, 999]]
+D Sending DV to node E
+Node E received DV from D
+Updating DV matrix at node E
+New DV matrix at node E = [[1, 999, 999, 3, 999], [3, 999, 999, 10, 999], [7, 999, 999, 5, 999], [3, 999, 999, 1, 999], [999, 999, 999, 999, 999]]
+Updating DV matrix at node E
+New DV matrix at node E = [[1, 999, 999, 3, 999], [3, 999, 999, 5, 999], [7, 999, 999, 5, 999], [3, 999, 999, 1, 999], [999, 999, 999, 999, 999]]
+-------
+Round 2: E
+Current DV matrix = [[1, 999, 999, 3, 999], [3, 999, 999, 5, 999], [7, 999, 999, 5, 999], [3, 999, 999, 1, 999], [999, 999, 999, 999, 999]]
+Last DV matrix = [[1, 999, 999, 12, 999], [3, 999, 999, 10, 999], [999, 999, 999, 5, 999], [999, 999, 999, 1, 999], [999, 999, 999, 999, 999]]
+Updated from last DV matrix or the same? Updated
+E Sending DV to node A
+E Sending DV to node D
+Node A received DV from E
+No change in DV at node A
+Node D received DV from E
+No change in DV at node D
+-------
+Round 3: A
+Current DV matrix = [[999, 999, 999, 999, 999], [999, 2, 999, 999, 4], [999, 7, 999, 999, 6], [999, 6, 999, 999, 2], [999, 5, 999, 999, 1]]
+Last DV matrix = [[999, 999, 999, 999, 999], [999, 2, 999, 999, 4], [999, 7, 999, 999, 6], [999, 999, 999, 999, 2], [999, 5, 999, 999, 1]]
+Updated from last DV matrix or the same? Updated
+A Sending DV to node B
+Node B received DV from A
+No change in DV at node B
+A Sending DV to node E
+Node E received DV from A
+No change in DV at node E
+-------
+Round 3: B
+Current DV matrix = [[2, 999, 12, 999, 999], [999, 999, 999, 999, 999], [8, 999, 5, 999, 999], [4, 999, 9, 999, 999], [3, 999, 10, 999, 999]]
+Last DV matrix = [[2, 999, 999, 999, 999], [999, 999, 999, 999, 999], [8, 999, 5, 999, 999], [4, 999, 9, 999, 999], [3, 999, 999, 999, 999]]
+Updated from last DV matrix or the same? Updated
+B Sending DV to node A
+Node A received DV from B
+No change in DV at node A
+B Sending DV to node C
+Node C received DV from B
+No change in DV at node C
+-------
+Round 3: C
+Current DV matrix = [[999, 7, 999, 6, 999], [999, 5, 999, 8, 999], [999, 999, 999, 999, 999], [999, 9, 999, 4, 999], [999, 8, 999, 5, 999]]
+Last DV matrix = [[999, 7, 999, 15, 999], [999, 5, 999, 13, 999], [999, 999, 999, 999, 999], [999, 9, 999, 4, 999], [999, 8, 999, 5, 999]]
+Updated from last DV matrix or the same? Updated
+C Sending DV to node B
+Node B received DV from C
+Updating DV matrix at node B
+New DV matrix at node B = [[2, 999, 11, 999, 999], [999, 999, 999, 999, 999], [8, 999, 5, 999, 999], [4, 999, 9, 999, 999], [3, 999, 10, 999, 999]]
+C Sending DV to node D
+Node D received DV from C
+Updating DV matrix at node D
+New DV matrix at node D = [[999, 999, 10, 999, 2], [999, 999, 9, 999, 4], [999, 999, 4, 999, 6], [999, 999, 999, 999, 999], [999, 999, 9, 999, 1]]
+-------
+Round 3: D
+Current DV matrix = [[999, 999, 10, 999, 2], [999, 999, 9, 999, 4], [999, 999, 4, 999, 6], [999, 999, 999, 999, 999], [999, 999, 9, 999, 1]]
+Last DV matrix = [[999, 999, 11, 999, 2], [999, 999, 9, 999, 4], [999, 999, 4, 999, 6], [999, 999, 999, 999, 999], [999, 999, 9, 999, 1]]
+Updated from last DV matrix or the same? Updated
+D Sending DV to node C
+Node C received DV from D
+No change in DV at node C
+D Sending DV to node E
+Node E received DV from D
+No change in DV at node E
+-------
+Round 3: E
+Current DV matrix = [[1, 999, 999, 3, 999], [3, 999, 999, 5, 999], [7, 999, 999, 5, 999], [3, 999, 999, 1, 999], [999, 999, 999, 999, 999]]
+Last DV matrix = [[1, 999, 999, 3, 999], [3, 999, 999, 5, 999], [7, 999, 999, 5, 999], [3, 999, 999, 1, 999], [999, 999, 999, 999, 999]]
+Updated from last DV matrix or the same? The same
+-------
+Round 4: A
+Current DV matrix = [[999, 999, 999, 999, 999], [999, 2, 999, 999, 4], [999, 7, 999, 999, 6], [999, 6, 999, 999, 2], [999, 5, 999, 999, 1]]
+Last DV matrix = [[999, 999, 999, 999, 999], [999, 2, 999, 999, 4], [999, 7, 999, 999, 6], [999, 6, 999, 999, 2], [999, 5, 999, 999, 1]]
+Updated from last DV matrix or the same? The same
+-------
+Round 4: B
+Current DV matrix = [[2, 999, 11, 999, 999], [999, 999, 999, 999, 999], [8, 999, 5, 999, 999], [4, 999, 9, 999, 999], [3, 999, 10, 999, 999]]
+Last DV matrix = [[2, 999, 12, 999, 999], [999, 999, 999, 999, 999], [8, 999, 5, 999, 999], [4, 999, 9, 999, 999], [3, 999, 10, 999, 999]]
+Updated from last DV matrix or the same? Updated
+B Sending DV to node A
+B Sending DV to node C
+Node A received DV from B
+No change in DV at node A
+Node C received DV from B
+No change in DV at node C
+-------
+Round 4: C
+Current DV matrix = [[999, 7, 999, 6, 999], [999, 5, 999, 8, 999], [999, 999, 999, 999, 999], [999, 9, 999, 4, 999], [999, 8, 999, 5, 999]]
+Last DV matrix = [[999, 7, 999, 6, 999], [999, 5, 999, 8, 999], [999, 999, 999, 999, 999], [999, 9, 999, 4, 999], [999, 8, 999, 5, 999]]
+Updated from last DV matrix or the same? The same
+-------
+Round 4: D
+Current DV matrix = [[999, 999, 10, 999, 2], [999, 999, 9, 999, 4], [999, 999, 4, 999, 6], [999, 999, 999, 999, 999], [999, 999, 9, 999, 1]]
+Last DV matrix = [[999, 999, 10, 999, 2], [999, 999, 9, 999, 4], [999, 999, 4, 999, 6], [999, 999, 999, 999, 999], [999, 999, 9, 999, 1]]
+Updated from last DV matrix or the same? The same
+-------
+Round 4: E
+Current DV matrix = [[1, 999, 999, 3, 999], [3, 999, 999, 5, 999], [7, 999, 999, 5, 999], [3, 999, 999, 1, 999], [999, 999, 999, 999, 999]]
+Last DV matrix = [[1, 999, 999, 3, 999], [3, 999, 999, 5, 999], [7, 999, 999, 5, 999], [3, 999, 999, 1, 999], [999, 999, 999, 999, 999]]
+Updated from last DV matrix or the same? The same
+-------
+Final output:
+Node A DV = [('B', 2), ('C', 6), ('D', 2), ('E', 1)]
+Node B DV = [('A', 2), ('C', 5), ('D', 4), ('E', 3)]
+Node C DV = [('A', 6), ('B', 5), ('D', 4), ('E', 5)]
+Node D DV = [('A', 2), ('B', 4), ('C', 4), ('E', 1)]
+Node E DV = [('A', 1), ('B', 3), ('C', 5), ('D', 1)]
+Number of rounds till convergence (Round # when one of the nodes last updated its DV) = 4
+
+
+##################################################################################################################################
+Network 2
+##################################################################################################################################
+
+-------
+Round 1: A
+Current DV matrix = [[999, 999, 999, 999, 999], [999, 10, 999, 999, 999], [999, 999, 10, 999, 999], [999, 999, 999, 10, 999], [999, 999, 999, 999, 10]]
+Last DV matrix = [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]
+Updated from last DV matrix or the same? Updated
+A Sending DV to node B
+A Sending DV to node C
+Node B received DV from A
+Updating DV matrix at node B
+New DV matrix at node B = [[10, 999, 999, 999, 999], [999, 999, 999, 999, 999], [20, 999, 999, 999, 999], [999, 999, 999, 999, 999], [999, 999, 999, 999, 999]]
+Updating DV matrix at node B
+New DV matrix at node B = [[10, 999, 999, 999, 999], [999, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999], [999, 999, 999, 999, 999]]
+Updating DV matrix at node B
+New DV matrix at node B = [[10, 999, 999, 999, 999], [999, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999]]
+Node C received DV from A
+Updating DV matrix at node C
+New DV matrix at node C = [[10, 999, 999, 999, 999], [20, 999, 999, 999, 999], [999, 999, 999, 999, 999], [999, 999, 999, 999, 999], [999, 999, 999, 999, 999]]
+Updating DV matrix at node C
+New DV matrix at node C = [[10, 999, 999, 999, 999], [20, 999, 999, 999, 999], [999, 999, 999, 999, 999], [20, 999, 999, 999, 999], [999, 999, 999, 999, 999]]
+Updating DV matrix at node C
+New DV matrix at node C = [[10, 999, 999, 999, 999], [20, 999, 999, 999, 999], [999, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999]]
+A Sending DV to node D
+Node D received DV from A
+Updating DV matrix at node D
+New DV matrix at node D = [[10, 999, 999, 999, 999], [20, 999, 999, 999, 999], [999, 999, 999, 999, 999], [999, 999, 999, 999, 999], [999, 999, 999, 999, 999]]
+Updating DV matrix at node D
+New DV matrix at node D = [[10, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999], [999, 999, 999, 999, 999], [999, 999, 999, 999, 999]]
+Updating DV matrix at node D
+New DV matrix at node D = [[10, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999], [999, 999, 999, 999, 999], [20, 999, 999, 999, 999]]
+A Sending DV to node E
+Node E received DV from A
+Updating DV matrix at node E
+New DV matrix at node E = [[10, 999, 999, 999, 999], [20, 999, 999, 999, 999], [999, 999, 999, 999, 999], [999, 999, 999, 999, 999], [999, 999, 999, 999, 999]]
+Updating DV matrix at node E
+New DV matrix at node E = [[10, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999], [999, 999, 999, 999, 999], [999, 999, 999, 999, 999]]
+Updating DV matrix at node E
+New DV matrix at node E = [[10, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999], [999, 999, 999, 999, 999]]
+-------
+Round 1: B
+Current DV matrix = [[10, 999, 999, 999, 999], [999, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999]]
+Last DV matrix = [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]
+Updated from last DV matrix or the same? Updated
+B Sending DV to node A
+Node A received DV from B
+Updating DV matrix at node A
+New DV matrix at node A = [[999, 999, 999, 999, 999], [999, 10, 999, 999, 999], [999, 30, 10, 999, 999], [999, 999, 999, 10, 999], [999, 999, 999, 999, 10]]
+Updating DV matrix at node A
+New DV matrix at node A = [[999, 999, 999, 999, 999], [999, 10, 999, 999, 999], [999, 30, 10, 999, 999], [999, 30, 999, 10, 999], [999, 999, 999, 999, 10]]
+Updating DV matrix at node A
+New DV matrix at node A = [[999, 999, 999, 999, 999], [999, 10, 999, 999, 999], [999, 30, 10, 999, 999], [999, 30, 999, 10, 999], [999, 30, 999, 999, 10]]
+-------
+Round 1: C
+Current DV matrix = [[10, 999, 999, 999, 999], [20, 999, 999, 999, 999], [999, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999]]
+Last DV matrix = [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]
+Updated from last DV matrix or the same? Updated
+C Sending DV to node A
+Node A received DV from C
+Updating DV matrix at node A
+New DV matrix at node A = [[999, 999, 999, 999, 999], [999, 10, 30, 999, 999], [999, 30, 10, 999, 999], [999, 30, 999, 10, 999], [999, 30, 999, 999, 10]]
+Updating DV matrix at node A
+New DV matrix at node A = [[999, 999, 999, 999, 999], [999, 10, 30, 999, 999], [999, 30, 10, 999, 999], [999, 30, 30, 10, 999], [999, 30, 999, 999, 10]]
+Updating DV matrix at node A
+New DV matrix at node A = [[999, 999, 999, 999, 999], [999, 10, 30, 999, 999], [999, 30, 10, 999, 999], [999, 30, 30, 10, 999], [999, 30, 30, 999, 10]]
+-------
+Round 1: D
+Current DV matrix = [[10, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999], [999, 999, 999, 999, 999], [20, 999, 999, 999, 999]]
+Last DV matrix = [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]
+Updated from last DV matrix or the same? Updated
+D Sending DV to node A
+Node A received DV from D
+Updating DV matrix at node A
+New DV matrix at node A = [[999, 999, 999, 999, 999], [999, 10, 30, 30, 999], [999, 30, 10, 999, 999], [999, 30, 30, 10, 999], [999, 30, 30, 999, 10]]
+Updating DV matrix at node A
+New DV matrix at node A = [[999, 999, 999, 999, 999], [999, 10, 30, 30, 999], [999, 30, 10, 30, 999], [999, 30, 30, 10, 999], [999, 30, 30, 999, 10]]
+Updating DV matrix at node A
+New DV matrix at node A = [[999, 999, 999, 999, 999], [999, 10, 30, 30, 999], [999, 30, 10, 30, 999], [999, 30, 30, 10, 999], [999, 30, 30, 30, 10]]
+-------
+Round 1: E
+Current DV matrix = [[10, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999], [999, 999, 999, 999, 999]]
+Last DV matrix = [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]
+Updated from last DV matrix or the same? Updated
+E Sending DV to node A
+Node A received DV from E
+Updating DV matrix at node A
+New DV matrix at node A = [[999, 999, 999, 999, 999], [999, 10, 30, 30, 30], [999, 30, 10, 30, 999], [999, 30, 30, 10, 999], [999, 30, 30, 30, 10]]
+Updating DV matrix at node A
+New DV matrix at node A = [[999, 999, 999, 999, 999], [999, 10, 30, 30, 30], [999, 30, 10, 30, 30], [999, 30, 30, 10, 999], [999, 30, 30, 30, 10]]
+Updating DV matrix at node A
+New DV matrix at node A = [[999, 999, 999, 999, 999], [999, 10, 30, 30, 30], [999, 30, 10, 30, 30], [999, 30, 30, 10, 30], [999, 30, 30, 30, 10]]
+-------
+Round 2: A
+Current DV matrix = [[999, 999, 999, 999, 999], [999, 10, 30, 30, 30], [999, 30, 10, 30, 30], [999, 30, 30, 10, 30], [999, 30, 30, 30, 10]]
+Last DV matrix = [[999, 999, 999, 999, 999], [999, 10, 999, 999, 999], [999, 999, 10, 999, 999], [999, 999, 999, 10, 999], [999, 999, 999, 999, 10]]
+Updated from last DV matrix or the same? Updated
+A Sending DV to node B
+Node B received DV from A
+No change in DV at node B
+A Sending DV to node C
+A Sending DV to node D
+Node C received DV from A
+No change in DV at node C
+Node D received DV from A
+No change in DV at node D
+A Sending DV to node E
+Node E received DV from A
+No change in DV at node E
+-------
+Round 2: B
+Current DV matrix = [[10, 999, 999, 999, 999], [999, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999]]
+Last DV matrix = [[10, 999, 999, 999, 999], [999, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999]]
+Updated from last DV matrix or the same? The same
+-------
+Round 2: C
+Current DV matrix = [[10, 999, 999, 999, 999], [20, 999, 999, 999, 999], [999, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999]]
+Last DV matrix = [[10, 999, 999, 999, 999], [20, 999, 999, 999, 999], [999, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999]]
+Updated from last DV matrix or the same? The same
+-------
+Round 2: D
+Current DV matrix = [[10, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999], [999, 999, 999, 999, 999], [20, 999, 999, 999, 999]]
+Last DV matrix = [[10, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999], [999, 999, 999, 999, 999], [20, 999, 999, 999, 999]]
+Updated from last DV matrix or the same? The same
+-------
+Round 2: E
+Current DV matrix = [[10, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999], [999, 999, 999, 999, 999]]
+Last DV matrix = [[10, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999], [20, 999, 999, 999, 999], [999, 999, 999, 999, 999]]
+Updated from last DV matrix or the same? The same
+-------
+Final output:
+Node A DV = [('B', 10), ('C', 10), ('D', 10), ('E', 10)]
+Node B DV = [('A', 10), ('C', 20), ('D', 20), ('E', 20)]
+Node C DV = [('A', 10), ('B', 20), ('D', 20), ('E', 20)]
+Node D DV = [('A', 10), ('B', 20), ('C', 20), ('E', 20)]
+Node E DV = [('A', 10), ('B', 20), ('C', 20), ('D', 20)]
+Number of rounds till convergence (Round # when one of the nodes last updated its DV) = 2
+
+
+
+
+
